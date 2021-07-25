@@ -26,10 +26,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <head>
         <meta charset="UTF-8">
         <title>Secure Login: Error</title>
-        <link rel="stylesheet" href="styles/main.css" />
+        <link rel="stylesheet" href="/styles/main.css" />
     </head>
     <body>
         <h1>There was a problem</h1>
         <p class="error"><?php echo $error; ?></p>  
+        
     </body>
 </html>

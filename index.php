@@ -49,7 +49,7 @@
     <script src="../cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
 </head>
 
-<body  data-spy="scroll">
+<body data-spy="scroll">
 <!-- Start Pre-Loader-->
 
 <div id="preloader">

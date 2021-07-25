@@ -31,7 +31,7 @@ if (isset($username, $email, $password, $phoneNumber)) {
 VALUES ('$username', '$email', '$hashedPassword', '$random_salt', '$phoneNumber')";
 
 if ($connection->query($sql) === TRUE) {
-  echo("New record created successfully");
+  header('Location: ../register_success.php');
 } else {
   echo("Error: " . $sql . "<br>" . $connection->error);
 }
